@@ -129,7 +129,7 @@ The web application was deployed using **Streamlit**, a fast way to build and sh
 ### Code to Start the Web App:
 
 ```bash
-streamlit run app.py
+streamlit run deploy.py
 ```
 
 ---
@@ -150,5 +150,5 @@ Feel free to open a pull request or raise an issue if you want to contribute to 
 
 ## 🧑‍💻 Author:
 
-- **[Caleb Osagie]**  
+- **Caleb Osagie**  
   Connect with me on [LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/caleb-osagie-37a793123/)).
