@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+streamlit
+gunicorn
+fastapi
+uvicorn
+pydantic
+pickle-mixin
+google-cloud-storage
