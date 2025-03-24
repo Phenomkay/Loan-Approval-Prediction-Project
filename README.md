@@ -107,7 +107,7 @@ pickle.dump(sc, open('scaler.pkl', 'wb'))
 
 ## 🌐 Web App Deployment:
 
-The web application was deployed using **FastAPI**, a modern, fast web framework for building APIs with Python 3.7+ based on standard Python type hints. The app is hosted on **Google Cloud Platform (GCP)**, ensuring reliable and scalable deployment. It provides a user-friendly interface for predicting whether a loan will be approved based on the following features:
+The web application was deployed using **Streamlit**, a modern, interactive web app. The app is hosted on **Streamlit Cloud**, ensuring reliable and scalable deployment. It provides a user-friendly interface for predicting whether a loan will be approved based on the following features:
 
 - Number of Dependents
 - Education Level
@@ -125,7 +125,7 @@ The web application was deployed using **FastAPI**, a modern, fast web framework
 - **User Inputs**: The user can input various loan details, and upon pressing the "Predict Loan Status" button, the model will predict whether the loan will be approved or rejected.
 - **Prediction Output**: The prediction result is displayed as a **success** message for approved loans or an **error** message for rejected loans.
 
-Feel free to access and interact with the app **[HERE](https://loan-prediction-app-api.uc.r.appspot.com/)**.
+Feel free to access and interact with the app **[HERE](https://loan-approval-predictor-app.streamlit.app/)**.
 
 ---
 
@@ -137,10 +137,10 @@ Feel free to open a pull request or raise an issue if you want to contribute to 
 
 ## 🙌 Acknowledgments:
 
-- **FastAPI**: For building and deploying the web API efficiently.
+- **Streamlit**: For building and deploying the web API efficiently.
 - **Scikit-learn**: For providing a simple and efficient tool for data mining and data analysis.
 - **Pandas & Numpy**: For data manipulation and analysis tools.
-- **Google Cloud Platform (GCP)**: For hosting the application in a reliable and scalable cloud environment.
+- **Streamlit Cloud**: For hosting the application in a reliable and scalable cloud environment.
 
 ---
 
